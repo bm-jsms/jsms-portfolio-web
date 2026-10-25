@@ -7,10 +7,9 @@ import { routing } from '@/i18n/routing';
 const localeNames: Record<string, string> = {
 	en: 'English',
 	es: 'Español',
-	de: 'Deutchsland',
 };
 
-export default function LanguageSwitcher() {
+const LocaleSwitcher = () => {
 	const locale = useLocale();
 	const pathname = usePathname();
 	const router = useRouter();
@@ -36,4 +35,6 @@ export default function LanguageSwitcher() {
 			</select>
 		</label>
 	);
-}
+};
+
+export { LocaleSwitcher };
