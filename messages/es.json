@@ -1,4 +1,9 @@
 {
+	"NotFound": {
+		"title": "Página no encontrada",
+		"description": "La página que buscas no existe.",
+		"backHome": "Volver al inicio"
+	},
 	"HomePage": {
 		"title": "Bienvenido a mi sitio web",
 		"description": "JSMS portafolio web.",
