@@ -1,0 +1,15 @@
+{
+	"HomePage": {
+		"title": "Bienvenido a mi sitio web",
+		"description": "JSMS portafolio web.",
+		"aboutLink": "Conoce más sobre mí"
+	},
+	"AboutPage": {
+		"title": "Sobre mí",
+		"description": "Conoce más sobre este proyecto."
+	},
+	"Navigation": {
+		"home": "Inicio",
+		"about": "Acerca de"
+	}
+}
