@@ -8,8 +8,10 @@ import { routing } from '@/i18n/routing';
 
 import '../globals.css';
 
-import { LocaleSwitcher } from '@/components/LocaleSwticher';
 import { LeftSidebar } from '@/components/LeftSidebar';
+import { RightSidebar } from '@/components/RightSidebar';
+import { Banner } from '@/components/Banner';
+import { MobileNavbar } from '@/components/sidebar/MobileNavbar';
 
 type Props = {
 	children: React.ReactNode;
@@ -33,18 +35,31 @@ export default async function RootLayout({ children }: Props) {
 
 	return (
 		<html lang={locale} className={`h-full antialiased`}>
-			<body className='h-screen flex flex-col bg-gray-500'>
+			<body className='h-screen flex flex-col bg-gray-950'>
 				<NextIntlClientProvider>
-					<LocaleSwitcher />
 					<div className='hidden md:flex flex-1 overflow-hidden'>
 						<LeftSidebar />
-						<main className='flex-1 overflow-y-auto'>{children}</main>
-						{/* <RightSidebar style='min-w-[180px] max-w-[240px] w-1/5 max-lg:hidden' /> */}
+						<main className='flex-1 overflow-y-auto h-screen overflow-y-auto scrollbar-hide'>
+							<div className='mx-auto w-full max-w-5xl px-6 pt-6 sm:px-8'>
+								<Banner />
+							</div>
+
+							{children}
+						</main>
+						<RightSidebar style='min-w-[180px] max-w-[240px] w-1/5 max-lg:hidden' />
 					</div>
 
-					<main className='md:hidden flex-1 overflow-y-auto overscroll-contain scrollbar-hide'>
-						{children}
-					</main>
+					<div className='flex min-h-0 flex-1 flex-col md:hidden'>
+						<MobileNavbar />
+
+						<main className='min-h-0 flex-1 overflow-y-auto overscroll-contain scrollbar-hide'>
+							<div className='mx-auto w-full max-w-5xl px-6 pt-6 sm:px-8'>
+								<Banner />
+							</div>
+
+							{children}
+						</main>
+					</div>
 				</NextIntlClientProvider>
 			</body>
 		</html>
