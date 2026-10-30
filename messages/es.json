@@ -7,14 +7,95 @@
 	"HomePage": {
 		"title": "Bienvenido a mi sitio web",
 		"description": "JSMS portafolio web.",
-		"aboutLink": "Conoce más sobre mí"
+		"aboutLink": "Conoce más sobre mí",
+		"greeting": "Hola a todos soy",
+		"rol": {
+			"1": "FullStack Developer",
+			"2": "Desarrollador Web"
+		},
+		"technologies": {
+			"title": "Tecnologias",
+			"description": "A lo largo de mi camino como desarrollador, he disfrutado explorar diferentes tecnologías, experimentar con nuevas ideas y encontrar mejores formas de hacerlas realidad.",
+			"description2": "Desde la creación de interfaces hasta el desarrollo de funcionalidades backend y el trabajo con bases de datos, siempre busco ampliar mis conocimientos, mejorar mi forma de trabajar y crear software que resuelva problemas reales."
+		}
 	},
-	"AboutPage": {
-		"title": "Sobre mí",
-		"description": "Conoce más sobre este proyecto."
+	"Projects": {
+		"title": "Mis Proyectos",
+		"description": "Algunos de los proyectos donde pongo en práctica mis conocimientos, exploro diferentes tecnologías y sigo aprendiendo a través del desarrollo práctico.",
+		"items": {
+			"delyfood": {
+				"title": "Dely Food",
+				"description": "Aplicación web de restaurante desarrollada en React que consume una API para explorar menús de comida rápida."
+			},
+			"ptEcommmerce": {
+				"title": "React E-Commerce",
+				"description": "Plafatorma en React que consume una API para la visualización y filtrado de catálogo de ropa y electrónica"
+			},
+			"jsMazeGame": {
+				"title": "JS Maze Game",
+				"description": "Videojuego 2D en JavaScript nativo donde guías a un personaje a través de un laberinto para alcanzar el objetivo y superar niveles."
+			},
+			"rctQuizTodo": {
+				"title": "React QuizTodo",
+				"description": "Aplicación interactiva de cuestionarios en React sobre desarrollo web que evalúa tus respuestas y genera una puntuación al completar la prueba."
+			}
+		}
 	},
 	"Navigation": {
 		"home": "Inicio",
-		"about": "Acerca de"
+		"projects": "Proyectos",
+		"experience": "Experiencia"
+	},
+
+	"ExperiencePage": {
+		"title": "Experiencia",
+		"items": [
+			{
+				"id": "1",
+				"role": "Desarrollador de Software",
+				"company": "Example Company",
+				"location": "Remoto",
+				"startDate": "Enero 2024",
+				"endDate": "Presente",
+				"summary": "Contribución al desarrollo de software y a las operaciones comerciales.",
+				"sections": [
+					{
+						"title": "Desarrollo de Software",
+						"bullets": [
+							{
+								"text": "Desarrollo y mantenimiento de aplicaciones utilizando Next.js y TypeScript."
+							},
+							{
+								"text": "Diseño y mantenimiento de API REST."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"role": "Desarrollador de Software, Agente de Experiencia de Usuario Final",
+				"company": "Green Key Resources",
+				"location": "Ciudad de Nueva York, NY",
+				"startDate": "Diciembre 2022",
+				"endDate": "Marzo 2023",
+				"sections": [
+					{
+						"title": "Desarrollo de Software",
+						"bullets": [
+							{
+								"text": "Mantenimiento de los servicios de la empresa utilizando Azure, Salesforce, SQL, Git, GitHub, Node.js, JavaScript y TypeScript."
+							},
+							{
+								"text": "Desarrollo de scripts ETL para operaciones rutinarias y puntuales."
+							},
+							{
+								"text": "Desarrollo e integración de Microsoft Copilots."
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 }

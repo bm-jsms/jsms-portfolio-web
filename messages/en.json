@@ -7,14 +7,133 @@
 	"HomePage": {
 		"title": "Welcome to my website",
 		"description": "JSMS portfolio web.",
-		"aboutLink": "Learn more about me"
+		"aboutLink": "Learn more about me",
+
+		"greeting": "Hi there Im",
+		"rol": {
+			"1": "FullStack Developer",
+			"2": "Web Developer"
+		},
+
+		"technologies": {
+			"title": "Technologies",
+			"description": "Throughout my journey as a developer, I’ve enjoyed exploring different technologies, experimenting with new ideas, and finding better ways to bring them to life.",
+			"description2": "From building user interfaces to developing backend functionality and working with databases, I’m always looking to expand my skills, improve my approach, and build software that solves real problems."
+		}
 	},
-	"AboutPage": {
-		"title": "About me",
-		"description": "Learn more about this project."
+	"Projects": {
+		"title": "My Projects",
+		"description": "A collection of projects where I apply my knowledge, explore new technologies, and continuously learn through hands-on development.",
+
+		"items": {
+			"delyfood": {
+				"title": "Dely Food",
+				"description": "React-based restaurant web app that consumes an API to browse fast food menus."
+			},
+			"ptEcommmerce": {
+				"title": "React E-Commerce",
+				"description": "React e-commerce that consumes an API to browse, filter, and display clothing and electronics catalogs."
+			},
+			"jsMazeGame": {
+				"title": "JS Maze Game",
+				"description": "Vanilla JavaScript 2D game where you guide a character through a maze to reach the objective and advance levels."
+			},
+			"rctQuizTodo": {
+				"title": "React QuizTodo",
+				"description": "Interactive React quiz app on web development that evaluates your answers and displays your final score upon completion."
+			}
+		}
 	},
+
 	"Navigation": {
 		"home": "Home",
-		"about": "About"
+		"projects": "Projects",
+		"experience": "Experience"
+	},
+
+	"ExperiencePage": {
+		"title": "Experience",
+		"items": [
+			{
+				"id": "1",
+				"role": "Junior Developer",
+				"company": "GeoingSAC",
+				"location": "Hybrid",
+				"startDate": "February 2025",
+				"endDate": "May 2026",
+				"summary": "Developed and delivered web applications and software solutions based on client requirements, working independently.",
+				"sections": [
+					{
+						"title": "Legacy System Maintenance",
+						"bullets": [
+							{
+								"text": "Maintained and troubleshot an existing PHP application backed by MySQL, supporting internal business operations."
+							},
+							{
+								"text": "Investigated application issues and helped maintain existing functionality within an established codebase."
+							}
+						]
+					},
+					{
+						"title": "Data Management & Business Operations",
+						"bullets": [
+							{
+								"text": "Worked with existing data retrieval functionality for customer, sales, inventory and engineering project information."
+							},
+							{
+								"text": "Supported internal workflows that allowed employees and engineering staff to consult operational information."
+							}
+						]
+					},
+					{
+						"title": "Technical Support & Collaboration",
+						"bullets": [
+							{
+								"text": "Resolved routine application issues and performed maintenance tasks within the existing system."
+							},
+							{
+								"text": "Collaborated with a senior developer on more significant modifications and technical issues."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"role": "Freelance Web Developer",
+				"company": "Freelance",
+				"location": "Remote",
+				"startDate": "January 2024",
+				"endDate": "July 2024",
+				"summary": "Worked on website improvements and troubleshooting, focusing on frontend issues, responsive layouts, SEO-related improvements and JavaScript-based API integration prototypes.",
+				"sections": [
+					{
+						"title": "Website Maintenance & Improvements",
+						"bullets": [
+							{
+								"text": "Fixed layout, spacing and styling issues to improve website consistency across different screen sizes."
+							},
+							{
+								"text": "Identified and resolved frontend bugs in existing websites, addressing visual and responsive behavior issues."
+							},
+							{
+								"text": "Implemented SEO-related improvements to support website optimization."
+							}
+						]
+					},
+					{
+						"title": "API Integration & Prototyping",
+						"bullets": [
+							{
+								"text": "Built a JavaScript-based landing page prototype that consumed an external API and displayed the returned data."
+							},
+							{
+								"text": "Developed standalone code examples to demonstrate how API functionality could be implemented in an existing application."
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 }
