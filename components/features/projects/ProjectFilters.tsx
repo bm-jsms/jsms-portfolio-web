@@ -18,7 +18,6 @@ const ProjectFilters = () => {
 								: 'bg-white text-gray-700 hover:bg-gray-300 '
 						}`}
 					>
-						<span>{category.icon}</span>
 						<span>{category.label}</span>
 						<span
 							className={`text-xs px-2 py-0.5 rounded-full ${
