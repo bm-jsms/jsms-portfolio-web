@@ -55,7 +55,7 @@ const ProjectCardDetailed = () => {
 
 						<div className='mb-5 mt-auto'>
 							<h4 className='text-sm font-semibold text-gray-300 mb-2'>
-								Tecnologías:
+								Stack
 							</h4>
 							<div className='flex flex-wrap gap-2'>
 								{project.technologies.map((tech, index) => (
