@@ -52,21 +52,43 @@
 		"items": [
 			{
 				"id": "1",
-				"role": "Desarrollador de Software",
-				"company": "Example Company",
-				"location": "Remoto",
-				"startDate": "Enero 2024",
-				"endDate": "Presente",
-				"summary": "Contribución al desarrollo de software y a las operaciones comerciales.",
+				"role": "Desarrollador Junior",
+				"company": "GeoingSAC",
+				"location": "Híbrido",
+				"startDate": "Febrero 2025",
+				"endDate": "Mayo 2026",
+				"summary": "Desarrollo y entrega de aplicaciones web y soluciones de software según los requerimientos de los clientes, trabajando de manera independiente.",
 				"sections": [
 					{
-						"title": "Desarrollo de Software",
+						"title": "Mantenimiento de Sistemas Legacy",
 						"bullets": [
 							{
-								"text": "Desarrollo y mantenimiento de aplicaciones utilizando Next.js y TypeScript."
+								"text": "Mantenimiento y solución de problemas en una aplicación PHP existente respaldada por MySQL, apoyando las operaciones comerciales internas."
 							},
 							{
-								"text": "Diseño y mantenimiento de API REST."
+								"text": "Investigación de incidencias en la aplicación y ayuda en el mantenimiento de la funcionalidad existente dentro de una base de código establecida."
+							}
+						]
+					},
+					{
+						"title": "Gestión de Datos y Operaciones Comerciales",
+						"bullets": [
+							{
+								"text": "Trabajo con la funcionalidad de recuperación de datos existente para información de clientes, ventas, inventario y proyectos de ingeniería."
+							},
+							{
+								"text": "Soporte a los flujos de trabajo internos que permitieron al personal y al equipo de ingeniería consultar información operativa."
+							}
+						]
+					},
+					{
+						"title": "Soporte Técnico y Colaboración",
+						"bullets": [
+							{
+								"text": "Resolución de incidencias rutinarias en la aplicación y ejecución de tareas de mantenimiento dentro del sistema existente."
+							},
+							{
+								"text": "Colaboración con un desarrollador senior en modificaciones de mayor relevancia e incidencias técnicas."
 							}
 						]
 					}
@@ -74,23 +96,35 @@
 			},
 			{
 				"id": "2",
-				"role": "Desarrollador de Software, Agente de Experiencia de Usuario Final",
-				"company": "Green Key Resources",
-				"location": "Ciudad de Nueva York, NY",
-				"startDate": "Diciembre 2022",
-				"endDate": "Marzo 2023",
+				"role": "Desarrollador Web Freelance",
+				"company": "Freelance",
+				"location": "Remoto",
+				"startDate": "Enero 2024",
+				"endDate": "Julio 2024",
+				"summary": "Trabajo en mejoras y solución de problemas en sitios web, con enfoque en incidencias de frontend, diseños responsivos, mejoras relacionadas con SEO y prototipos de integración de API basados en JavaScript.",
 				"sections": [
 					{
-						"title": "Desarrollo de Software",
+						"title": "Mantenimiento y Mejoras de Sitios Web",
 						"bullets": [
 							{
-								"text": "Mantenimiento de los servicios de la empresa utilizando Azure, Salesforce, SQL, Git, GitHub, Node.js, JavaScript y TypeScript."
+								"text": "Corrección de problemas de diseño, espaciado y estilos para mejorar la coherencia del sitio web en diferentes tamaños de pantalla."
 							},
 							{
-								"text": "Desarrollo de scripts ETL para operaciones rutinarias y puntuales."
+								"text": "Identificación y resolución de errores de frontend en sitios web existentes, abordando problemas visuales y de comportamiento responsivo."
 							},
 							{
-								"text": "Desarrollo e integración de Microsoft Copilots."
+								"text": "Implementación de mejoras relacionadas con SEO para apoyar la optimización del sitio web."
+							}
+						]
+					},
+					{
+						"title": "Integración de API y Prototipado",
+						"bullets": [
+							{
+								"text": "Construcción de un prototipo de página de destino basada en JavaScript que consumía una API externa y mostraba los datos devueltos."
+							},
+							{
+								"text": "Desarrollo de ejemplos de código independientes para demostrar cómo se podría implementar la funcionalidad de una API en una aplicación existente."
 							}
 						]
 					}
