@@ -19,7 +19,7 @@ export const projectsData: ProjectDataType[] = [
 		slug: 'delyfood',
 
 		image: '/images/projects/p1.webp',
-		technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'css', 'css'],
+		technologies: ['React', 'Tailwind CSS'],
 		category: 'frontend',
 		liveUrl: 'https://jsms-spa-restaurant.netlify.app/',
 		codeUrl: 'https://github.com/bm-jsms/spa_restaurant',
@@ -33,7 +33,7 @@ export const projectsData: ProjectDataType[] = [
 		slug: 'ptEcommmerce',
 
 		image: '/images/projects/p2.webp',
-		technologies: ['Vue.js', 'Firebase', 'Vuetify', 'css'],
+		technologies: ['React', 'TailwindCSS', 'Zustand'],
 		category: 'frontend',
 		liveUrl: 'https://react-ecommerce-plt.vercel.app/',
 		codeUrl: 'https://github.com/bm-jsms/react_ecommerce-plt',
@@ -69,5 +69,19 @@ export const projectsData: ProjectDataType[] = [
 		favorite: true,
 		status: 'completed',
 		year: 2024,
+	},
+	{
+		id: 5,
+		slug: 'rctQuizTodo',
+
+		image: '/images/projects/p5.webp',
+		technologies: ['NestJS', 'JWT', 'PostgreSQL', 'Auth'],
+		category: 'backend',
+		liveUrl: 'https://nestjs-ecommerce-api-38sl.onrender.com/api',
+		codeUrl: 'https://github.com/bm-jsms/nestJS-ecommerce-api',
+		featured: false,
+		favorite: true,
+		status: 'completed',
+		year: 2026,
 	},
 ];
